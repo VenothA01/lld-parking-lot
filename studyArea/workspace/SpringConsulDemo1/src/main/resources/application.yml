@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: app01
+  cloud:
+    consul:
+      config:
+        fail-fast: true
+      host: localhost
+      port: 8500
+  config:
+    import: 'consul:'
